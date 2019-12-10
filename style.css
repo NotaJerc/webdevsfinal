@@ -1,0 +1,62 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+}
+p{
+color: blue;
+text-align: center;
+}
+.navbar{
+margin: 2px;
+text-align: right;
+padding: 25px;
+}
+
+.navbar a{
+text-decoration: none;
+padding: 14px 20px;
+color: #333;
+
+}
+
+.navbar h1{
+float: left;
+text-transform: lowercase;
+}
+.basic{
+display: flex;
+flex-direction: row;
+}
+
+.content1{
+padding:200px;
+margin: 10px;
+background-color: green;
+}
+
+.content2{
+padding:200px;
+margin: 10px;
+background-color: red;
+}
+
+.content3{
+padding: 200px;
+margin: 10px;
+background-color: yellow;
+}
+
+.sign-up{
+text-align: center;
+margin: 350px;
+}
+input[type="text"], input[type="password"]{
+color: green;
+}
+
